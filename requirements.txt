@@ -1,0 +1,17 @@
+# requirements.txt - Para compilar keyloggers REALES
+
+# Para el builder
+pyinstaller>=6.0.0
+requests>=2.28.0
+
+# Para Linux REAL
+pynput>=1.7.6
+Pillow>=10.0.0  # Para screenshots
+pyperclip>=1.8.2  # Para portapapeles
+
+# Para Windows REAL (compilación desde Linux)
+# Nota: pyHook no se instala en Linux, se necesita en Windows
+# pyautogui>=0.9.53  # Para screenshots Windows
+
+# Para pruebas
+colorama>=0.4.6
